@@ -1,0 +1,38 @@
+Andrew Bub CSE 20312 Lab 6 Report
+
+GOALS:
++15	Learn Java
++15	Learn Udacity for Android
++10	Code Something Basic in Java that can be more developed for project
+
+TIME LOG:
+3/18/17: 12:00 PM - 3:00 PM	Java Basics Tutorials
+3/19/17: 4:00 PM - 7:00 PM	Java Tutorials continued
+3/20/17: 3:00 PM - 5:00 PM	Udacity Tutorial Videos
+3/20/17: 9:00 PM - 10:00 PM 	Udacity Tutorial Videos continued
+3/21/17: 1:00 AM - 2:30 AM	Create simple restaurant menu class in Java
+
+FUTURE TASKS:
+(Between March 20 - March 27)
+-Finish Udacity Tutorial Videos
+-Research JSON
+-Create classes/polymorphic functions in Java
+-Populate data structures with data from JSON feeds (if possible)
+	-if too difficult: hardcode the data
+
+
+COMPILED CODE:
+Menu.java in my Dropbox. 
+To compile, javac Menu.java
+To run, java Menu
+
+REPORT:
+Menu.java works by creating a public class called Menu. Menu has one public method, main.
+It initializes the counts for 5 items: chicken, fish, steak, beer, and wine. It sets the prices
+for each item, and initializes the totals before and after tax, along with the subTotal.
+Then, the method displays a menu of the items with numbers and prompts the user to pick an item
+based on the number, or 0 to complete the order. If the selection is not between 0 and 5, the 
+method prompts the user for a vaid input. For every input, the program adds to the counts and 
+totals for the items and whole order. Once 0 is pressed, the method calculates the tax, and adds
+it to the final total. It then prints out the final order, in numbers of each item, number of
+total items, the subtotal, the tax, the total, and then a thank you message. 
